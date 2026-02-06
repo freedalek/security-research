@@ -1,0 +1,22 @@
+# Obsidian配置与缓存（不上传）
+.obsidian/
+.obsidian/cache/
+.obsidian/workspace.json
+.obsidian/graph.json
+
+# 附件与大型文件
+attachments/
+*.pdf
+*.mp4
+*.zip
+*.log
+
+# AI模型缓存与临时文件
+embeddings/
+*.faiss
+*.pkl
+/tmp/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
